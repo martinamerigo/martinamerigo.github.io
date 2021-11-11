@@ -1,130 +1,64 @@
-
-==================================================================================================
-
-KARDS is a modern and clean personal vCard website template. It has many cool features found
-in premium templates. It has timeline items, stats section, skillbars, working ajax form,
-frontend form validation, a portfolio section to showcase your works and many more. It looks 
-great on all devices from mobile to desktop. It's also retina ready so your site will look 
-crisp and sharp on any device. Kards is the ideal template for creating digital personal resume 
-and portfolio website.
-
-==================================================================================================
+Aerial by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-LICENSE:
-KARDS is released under the Creative Commons Attribution 3.0 License
-(http://creativecommons.org/licenses/by/3.0/). This means that you are free:
+This is Aerial, a single page, single screen responsive site template. Real simple.
+Makes heavy use of CSS animation (something I've been messing with a lot lately).
+Should work well as a landing page that just directs folks to your stuff elsewhere
+on the www. Sass sources are also included, so if you've never used Sass and you're
+interested in giving it a try, head on over to sass-lang.com (and if not, you can
+safely delete the "sass/" folder).
 
-   to Share - to copy, distribute, display, and perform the work
-   to Remix - to make derivative works
-   to make commercial use of the work 
+The scrolling mountainous background was derived from "Icefields" by Ryan Schroeder,
+a talented photographer from Vancouver who graciously released it on Unsplash under
+the CC0 license. Be sure to check out his other stuff over at flickr (link below)
+as well as all the other kickass CC0-licensed images at Unsplash (unsplash.com).
 
-Under the following conditions:
+Questions/comments/issues = just email or find me on Twitter. Have fun!
 
-   Attribution - You must attribute the work in the manner specified by the 
-   author or licensor (but not in any way that suggests that they endorse you 
-   or your use of the work). 
-
-   For any reuse or distribution, you must make clear to others the license 
-   terms of this work
-
-   Any of these conditions can be waived if you get permission from the 
-   copyright holder
-
-Attribution: 
-	
-   You must include a credit link to our website(http://www.Styleshout.com) somewhere on
-   your site. We prefer the footer credit that comes with the template but you are still 
-   free to move it somewhere else.
+AJ
+aj@lkn.io | @ajlkn
 
 
------------------------------------------------------------------------------------------------------
+The Scrolling Background:
+
+	This relies entirely on CSS to do its thing, which is cool, but that makes
+	changing it a bit weird/tricky at first. You can still use pretty much any image
+	you want, but for best results make sure yours is:
+
+	- Horizontally tileable.
+	- Wide and short.
+	- About 1500px wide.
+	- Fades to a solid color either at the top of bottom (which is used to fill
+	  the empty space above or below your image).
+
+	Now, there are two ways to use it: with CSS, or with Sass:
+
+	CSS:
+
+		Look for this line in css/style.css (line 108 as of this writing):
+
+			background: #348cb2 url("images/bg.jpg") bottom left;
+
+		and use it to set the page background color, URL, and placement of
+		your image. It should be as close to 1500px wide as you can get it.
+
+	Sass:
+
+		Set the value of $bg to the page background color, URL, and placement
+		of your image. Change $bg-width if your image is something other than
+		1500px wide.
 
 
-REMOVING THE LINK:
+Credits:
 
-We understand that there are situations where you want to use the template without the 
-crediting obligation. If that's your case, you can always send us a 
-credit removal fee of 10 USD through Paypal. This will allow you to use the 
-template attribution/credit link free on ONE DOMAIN name. 
+	Background Image:
+		Ryan Schroeder via Unsplash (unsplash.com - CC0 licensed)
+			"Icefields" (flickr.com/photos/ryanschroeder/11876741703)
 
-You can send your payments through Paypal to this address: ealigam@gmail.com
+	Icons:
+		Font Awesome (fontawesome.io)
 
-If possible, kindly send us the site's url where the template is being used. 
-Also, keep your Paypal receipt as proof of payment and your good to go.
-
-
------------------------------------------------------------------------------------------------------- 
-
-
-SUPPORT:
-    
-Since KARDS is distributed for free, support is not offered. KARDS is coded according 
-to current web standards and we did our best to make the template easy to use and modify.
-If you have minimum web development experience, you can easily modify the template. 
-However, If you're still new to HTML and CSS, I suggest that you visit the 
-following tutorials:
-
- - http://tutsplus.com/course/30-days-to-learn-html-and-css/
- - http://learn.shayhowe.com/html-css/
-
-These will teach you the essentials of HTML and CSS. In addition, if you want to include
-jQuery in your skill-set, you can also check out these tutorials: 
-
- - http://code.tutsplus.com/courses/30-days-to-learn-jquery
- - http://try.jquery.com/
-
-
------------------------------------------------------------------------------------------------------- 
-
-
-GET THE LATEST VERSION:
-
-We update our templates on a regular basis so to make sure that you have the latest version, 
-always download the template files directly at our website(http://www.styleshout.com/)
-
-
-
--------------------------------------------------------------------------------------------------------
-
-
-SOURCES AND CREDITS:
-
-I've used the following resources as listed.
-
-Fonts:
- - Lora Font (https://www.google.com/fonts/specimen/Lora)
- - Poppins Font (https://www.google.com/fonts/specimen/Poppins) 
-
-Icons:
- - Font Awesome (http://fortawesome.github.io/Font-Awesome/)
- - Micons (http://geticonjar.com/freebies/231-micons/)
- - Micons webfont generated by ICOMOON (https://icomoon.io/)
-
-Stock Photos and Graphics:
- - UnSplash.com (http://unsplash.com/)
- - gratisography.com (http://www.gratisography.com/)
- 
-Javascript Files:
-
- - JQuery (http://jquery.com/)
- - Modernizr (http://modernizr.com/)
- - Waypoints (http://imakewebthings.com/jquery-waypoints/)
- - Magnific Popup (http://dimsemenov.com/plugins/magnific-popup/)
- - jQuery Placeholder (https://github.com/mathiasbynens/jquery-placeholder)
- - FitVids (http://fitvidsjs.com/)
- - Fittext (http://fittextjs.com/)
- - jQuery Validator (http://jqueryvalidation.org/)
- - Imagesloaded (http://imagesloaded.desandro.com/)
- - Masonry (http://masonry.desandro.com)
- - pace js (http://github.hubspot.com/pace/) 
- - owl carousel (http://www.owlgraphic.com/owlcarousel/)
-
- 
-
---------------------------------------------------------------------------------------------------------- 
-
-
-Thanks for downloading from Styleshout :)
-  
-
+	Other:
+		Responsive Tools (github.com/ajlkn/responsive-tools)
