@@ -704,6 +704,8 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		
+
 		@media screen and (max-width: 736px) {
 
 			.image.main {
@@ -720,6 +722,69 @@ input, select, textarea {
 
 		}
 
+/* tile */
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0 4px;
+	}
+	
+	/* Create four equal columns that sits next to each other */
+	.column33 {
+		flex: 33.33%;
+		max-width: 33.33%;
+		padding: 0 4px;
+	}
+	
+	.column33 img {
+		margin-top: 8px;
+		vertical-align: middle;
+		width: 100%;
+	}
+
+	/* Responsive layout - makes a two column-layout instead of four columns */
+	@media screen and (max-width: 800px) {
+		.column33 {
+		flex: 50%;
+		max-width: 50%;
+		}
+	}
+	
+	/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+	@media screen and (max-width: 600px) {
+		.column33 {
+		flex: 33.33%;
+		max-width: 33.33%;
+		}
+	}
+
+	.column50 {
+		flex: 50%;
+		max-width: 50%;
+		padding: 0 4px;
+	}
+	
+	.column50 img {
+		margin-top: 8px;
+		vertical-align: middle;
+		width: 100%;
+	}
+	
+	/* Responsive layout - makes a two column-layout instead of four columns */
+	@media screen and (max-width: 800px) {
+		.column50 {
+		flex: 50%;
+		max-width: 50%;
+		}
+	}
+	
+	/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+	@media screen and (max-width: 600px) {
+		.column50 {
+		flex: 100%;
+		max-width: 100%;
+		}
+	}
 /* List */
 
 	ol {
@@ -1140,9 +1205,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
